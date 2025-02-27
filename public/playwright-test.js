@@ -1,9 +1,12 @@
-// const { test, expect, chromium } = require('@playwright/test');
-const { chromium } = require('playwright-chromium');
+const { test, expect, chromium } = require('@playwright/test');
+// const { chromium } = require('playwright-chromium');
+
+const fs = require('fs');
+const path = require('path');
 
 const run = async () => {
   const browser = await chromium.launch({
-    // executablePath: './chrome-win/chrome.exe',
+    executablePath: './../_chrome-win/chrome.exe',
     headless: false,
     //devtools: false,
     timeout: 30000,
