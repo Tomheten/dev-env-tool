@@ -1,11 +1,15 @@
 import path from 'path'
 import { app, BrowserWindow } from 'electron'
+import * as child_process from 'node:child_process';
 
 const windows: BrowserWindow[] = []
 
 function createWindow() {
   // Renderer 1
   const win = new BrowserWindow()
+
+  //child_process.execSync()
+
   if (process.env.VITE_DEV_SERVER_URL) {
     win.loadURL(path.posix.join(process.env.VITE_DEV_SERVER_URL, 'html/index.html'))
   } else {

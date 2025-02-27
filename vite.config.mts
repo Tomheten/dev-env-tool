@@ -23,9 +23,23 @@ export default {
             },
         ]),
     ],
+    //build: {
+    //    rollupOptions: {
+    //        input: path.join(__dirname, 'html/index.html'),
+    //    },
+    //},
     build: {
         rollupOptions: {
             input: path.join(__dirname, 'html/index.html'),
         },
     },
+    //resolve: {
+    //    extensions: ['.ts'],  // Добавьте расширение .mts
+    //    alias: {
+    //        '@': path.resolve(__dirname, 'src'),
+    //    },
+    //},
+    //esbuild: {
+    //    include: ['src/**/*.ts', 'src/**/*.mts'],  // Укажите путь к файлам для компиляции
+    //},
 };
