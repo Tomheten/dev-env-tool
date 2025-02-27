@@ -17,6 +17,8 @@
     "vite-plugin-electron": "^0.29.0",
     "vite-plugin-electron-renderer": "^0.14.5",
     "vite-plugin-static-copy": "^2.2.0",
-    "vite-plugin-multiple": "^0.2.0"
+    "vite-plugin-multiple": "^0.2.0",
+    "@playwright/test": "^1.50.1",
+    "playwright-chromium": "1.50.1"
   }
 }
