@@ -1,8 +1,8 @@
 {
-  "name": "nms-electron",
+  "name": "dev-tool-app",
   "version": "0.0.1",
   "main": "dist-electron/main.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "electron:dev": "vite",
     "electron:build": "vite build && electron-builder"

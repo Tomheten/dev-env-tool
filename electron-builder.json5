@@ -3,8 +3,7 @@
  */
 {
   "asar": false,
-  "productName": "NMS-ELECTRON-APP",
-  "copyright": "YADRO",
+  "productName": "dev-tool-app",
   "directories": {
     "output": "release/${version}"
   },
